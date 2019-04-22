@@ -8,6 +8,10 @@ public class ClientTest {
         Client myClient = new Client("Drew");
         assertEquals(true, myClient instanceof Client);
     }
-
+    @Test
+    public void Client_instantiatesWithDescription_String() {
+        Client myClient = new Client("Drew Stephens");
+        assertEquals("Drew Stephens", myClient.getDescription());
+    }
 
 }
