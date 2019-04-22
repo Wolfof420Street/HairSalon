@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.wolf.SalonApp'
+version '1.0-SNAPSHOT'
+mainClassName = "App"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.sparkjava', name: 'spark-core', version: '2.3'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
+}
