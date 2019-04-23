@@ -28,4 +28,16 @@ public class ClientTest {
         assertEquals(true, Client.all().contains(firstClient));
         assertEquals(true, Client.all().contains(secondClient));
     }
+    @Test
+    public void clear_emptiesAllClientssFromArrayList_0() {
+        Client myClient = new Client("lawrence Karanja");
+        Client.clear();
+        assertEquals(Client.all().size(), 0);
+    }
+    @Test
+    public void getId_clentsInstantiateWithAnID_1() {
+        Client.clear();  // Remember, the test will fail without this line! We need to empty leftover Clients from previous tests!
+        Client myClient = new Client("Tom Orenge");
+        assertEquals(1, myClient.getId());
+    }
 }
