@@ -1,0 +1,12 @@
+<h1>Client list!</h1>
+#if ($client)
+    <ul>
+    #foreach ($client in $clients)
+    <li> <a href="/clients/$client.getId()">$client.getDescription()</a> </li>
+#end
+</ul>
+  #else
+  <p>No Clients!</p>
+#end
+
+ <a href="/clients/new">Add New Client</a>

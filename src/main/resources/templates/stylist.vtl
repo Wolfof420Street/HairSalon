@@ -1,0 +1,10 @@
+<h1 class="animated infinite rollIn delay-2s">$stylist.getName() clients: </h1>
+
+<ul>
+  #foreach($client in $client.getClients())
+   <li>$client.getDescription()</li>
+  #end
+</ul>
+
+<a href="/stylists/$stylist.getId()/clients/new">Add a new Client</a>
+<a href="/stylists">All clients</a>
