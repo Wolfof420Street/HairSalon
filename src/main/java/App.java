@@ -103,5 +103,15 @@ public class App {
             response.redirect(url);
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+        post("/stylists/:stylist_id/clients/:id/delete", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            Client client = Client.find(Integer.parseInt(request.params("id")));
+            String description = request.queryParams("description");
+            Stylist stylist = Stylist.find(client.getStylistId());
+            client.delete();
+            model.put("stylist", stylist);
+            model.put("template", "templates/stylist.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
     }
 }
