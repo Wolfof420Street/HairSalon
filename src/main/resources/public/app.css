@@ -1,3 +1,37 @@
 h1 {
+font-color: blue;
+text-align: center;
+}
+p {
+font-color: white;
+}
+a:link {
+  text-decoration: none;
+  color: red;
+}
 
+a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+a:active {
+  text-decoration: underline;
+  color: blue;
+}
+.jumbotron {
+background-image: url("http://wishsalonspa.com/wp-content/uploads/2013/06/bg34.jpg");
+}
+body {
+background-image: url("https://image.shutterstock.com/image-photo/hairdresser-tools-on-black-background-260nw-1158042907.jpg");
+background-size: cover;
+position: relative;
+}
+li {
+color: white;
 }

@@ -2,7 +2,7 @@
 
 <ul>
   #foreach($client in $client.getClients())
-   <li>$client.getDescription()</li>
+   <li><a href="/stylists/$stylist.getId()/clients/$client.getDescription()</a></li>
   #end
 </ul>
 

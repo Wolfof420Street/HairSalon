@@ -1,23 +1,11 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.sql2o.*;
+import java.util.Arrays;
 
 public class StylistTest {
-    @Before
-    public void setUp() {
-        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/hair_salon_test", null, null);
-    }
-
-    @After
-    public void tearDown() {
-        try(Connection con = DB.sql2o.open()) {
-            String deleteClientsQuery = "DELETE FROM clients *;";
-            String deleteStylistsQuery = "DELETE FROM stylists *;";
-            con.createQuery(deleteClientsQuery).executeUpdate();
-            con.createQuery(deleteStylistsQuery).executeUpdate();
-        }
-    }
-
+    @Rule
+    public DatabaseRule database = new DatabaseRule();
     @Test
     public void stylist_instantiatesCorrectly_true() {
         Stylist testStylist = new Stylist("Muigai");
@@ -95,4 +83,26 @@ public class StylistTest {
         Stylist savedStylist = Stylist.all().get(0);
         assertEquals(myStylist.getId(), savedStylist.getId());
     }
+
+    @Test
+    public void save_savesStylistIdIntoDB_true() {
+        Stylist myStylist = new Stylist("Houdini");
+        myStylist.save();
+        Client myClient = new Client("Mow Fara", myStylist.getId());
+        myClient.save();
+        Client savedClient = Client.find(myClient.getId());
+        assertEquals(savedClient.getStylistId(), myClient.getId());
+    }
+    @Test
+    public void getClients_retrievesAllClientsFromDatabase_clientList() {
+        Stylist myStylist = new Stylist("Wolf");
+        myStylist.save();
+        Client firstClient = new Client("Mow", myStylist.getId());
+        firstClient.save();
+        Client secondClient = new Client("Don", myStylist.getId());
+        secondClient.save();
+        Client[] clients = new Client[] { firstClient, secondClient };
+        assertTrue(myStylist.getClients().containsAll(Arrays.asList(clients)));
+    }
+
     }
