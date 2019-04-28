@@ -1,4 +1,14 @@
 <h1>$client.getDescription()</h1>
+<h2> Belongs to: $stylist.getName() list. </h2>
 
+<h2> Edit client: </h2>
+<h2>Edit task:</h2>
+
+<form action="/stylists/$client.getStylistId()/clients/$client.getId()" method="post">
+  <label for="description">Description</label>
+  <input id="description" name="description" type="text">
+  <button type="submit" class="btn btn-info">Update Client</button>
+</form>
 <a href="/clients/new">Add another client</a>
 <a href="/clients">All clients</a>
+<a href="/stylists/$stylist.getId()"> Return to $stylist.getName()</a>"
