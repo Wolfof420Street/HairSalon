@@ -25,10 +25,12 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        get("/clients", (request, response) -> {
+        get("/stylists/:stylist_id/clients/:id ", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            model.put("clients", Client.all());
-            model.put("template", "templates/clientss.vtl");
+            Stylist stylist= Stylist.find(Integer.parseInt(request.params(":stylistId")));
+            Client client = Client.find(Integer.parseInt(request.params(":id")));
+            model.put("stylist", stylist);
+            model.put("template", "templates/clients.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
         get("/clients/:id", (request, response) -> {
