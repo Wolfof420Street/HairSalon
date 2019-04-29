@@ -102,7 +102,7 @@ public class App {
             model.put("template", "templates/stylist-success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-       post("/stylists/$stylist.getId()/clients", (request, response) -> {
+       post("/stylists/:id/clients", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
 
             Stylist stylist = Stylist.find(Integer.parseInt(request.queryParams("stylistId")));
