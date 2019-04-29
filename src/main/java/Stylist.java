@@ -6,7 +6,7 @@ import org.sql2o.*;
 public class Stylist {
     private String Name;
     private int id;
-    private int stylistId;
+
 
 
     public Stylist(String name) {

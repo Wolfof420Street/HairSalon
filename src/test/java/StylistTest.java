@@ -37,7 +37,7 @@ public class StylistTest {
     public void getId_StylistsInstantiateWithAnId_1() {
         Stylist testStylist = new Stylist("Mike");
         testStylist.save();
-        assertEquals(1, testStylist.getId());
+        assertTrue(testStylist.getId()>0);
     }
 
     @Test

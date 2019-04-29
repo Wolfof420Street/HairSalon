@@ -24,13 +24,10 @@ a:active {
   text-decoration: underline;
   color: blue;
 }
-.jumbotron {
-background-image: url("http://wishsalonspa.com/wp-content/uploads/2013/06/bg34.jpg");
-}
 body {
-background-image: url("https://image.shutterstock.com/image-photo/hairdresser-tools-on-black-background-260nw-1158042907.jpg");
 background-size: cover;
 position: relative;
+background-color: grey;
 }
 li {
 color: white;
