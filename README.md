@@ -26,6 +26,19 @@ The applications allow users to do the following:
 3.View a list of clients assigned to a stylist
 
 ```
+## Database
+
+Run PSQL:
+
+     CREATE DATABASE hair_salon;
+     CREATE TABLE stylists(id int,name varchar);
+     CREATE TABLE clients(id int,name varchar);
+
+## Testing
+
+   ```java
+    gradle test
+```
 
 ## Contact Details
 ```bash
