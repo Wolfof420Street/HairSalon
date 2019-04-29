@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fde51d4-3cce-4ddf-96e1-d3d81ecd0a7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,23 +46,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="82" column="52" lean-forward="true" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+            <state relative-caret-position="325">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -84,8 +73,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,19 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            <state relative-caret-position="405">
+              <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,9 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist-client-success.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/client.vtl" />
-        <option value="$PROJECT_DIR$/src/test/java/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist-form.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/client-form.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
@@ -193,7 +197,9 @@
         <option value="$PROJECT_DIR$/src/test/java/DatabaseRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/StylistTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stylist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
       </list>
     </option>
   </component>
@@ -203,10 +209,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="83" />
     <option name="y" value="27" />
-    <option name="width" value="598" />
+    <option name="width" value="588" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -307,13 +313,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StylistTest.save_savesIntoDatabase_true">
-    <configuration name="StylistTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ClientTest.save_assignsIdToObject">
+    <configuration name="ClientTest.Client_instantiatesCorrectly_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest.Client_instantiatesCorrectly_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -328,12 +334,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.addClients_addsClientsToList_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClientTest.Client_instantiatesWithDescription_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.addClients_addsClientsToList_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest.Client_instantiatesWithDescription_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -348,12 +354,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.getName_stylistInstantiatesWithName_Home" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClientTest.all_returnsAllInstancesOfClient_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.getName_stylistInstantiatesWithName_Home&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest.all_returnsAllInstancesOfClient_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -368,12 +374,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.save_savesIntoDatabase_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.save_savesIntoDatabase_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest.getCreatedAt_instantiatesWithCurrentTime_today&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -388,12 +394,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.save_savesStylistIdIntoDB_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClientTest.save_assignsIdToObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.save_savesStylistIdIntoDB_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest.save_assignsIdToObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -410,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StylistTest.save_savesIntoDatabase_true" />
-        <item itemvalue="Gradle.StylistTest.getName_stylistInstantiatesWithName_Home" />
-        <item itemvalue="Gradle.StylistTest.save_savesStylistIdIntoDB_true" />
-        <item itemvalue="Gradle.StylistTest" />
-        <item itemvalue="Gradle.StylistTest.addClients_addsClientsToList_true" />
+        <item itemvalue="Gradle.ClientTest.save_assignsIdToObject" />
+        <item itemvalue="Gradle.ClientTest.all_returnsAllInstancesOfClient_true" />
+        <item itemvalue="Gradle.ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" />
+        <item itemvalue="Gradle.ClientTest.Client_instantiatesWithDescription_String" />
+        <item itemvalue="Gradle.ClientTest.Client_instantiatesCorrectly_true" />
       </list>
     </recent_temporary>
   </component>
@@ -432,41 +438,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 03m 11s.xml">
+    <history-entry file="StylistTest_equals_returnsTrueIfNamesAreTheSame - 2019.04.29 at 15h 43m 09s.xml">
+      <configuration name="StylistTest.equals_returnsTrueIfNamesAreTheSame" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 15h 44m 38s.xml">
       <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest - 2019.04.29 at 12h 05m 33s.xml">
-      <configuration name="StylistTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="StylistTest_save_assignsIdToObject - 2019.04.29 at 15h 44m 48s.xml">
+      <configuration name="StylistTest.save_assignsIdToObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 08m 28s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="StylistTest_getClients_retrievesAllClientsFromDatabase_clientList - 2019.04.29 at 15h 45m 02s.xml">
+      <configuration name="StylistTest.getClients_retrievesAllClientsFromDatabase_clientList" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 13m 28s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest - 2019.04.29 at 16h 02m 51s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesStylistIdIntoDB_true - 2019.04.29 at 12h 15m 14s.xml">
-      <configuration name="StylistTest.save_savesStylistIdIntoDB_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest_Client_instantiatesCorrectly_true - 2019.04.29 at 16h 03m 02s.xml">
+      <configuration name="ClientTest.Client_instantiatesCorrectly_true" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_getName_stylistInstantiatesWithName_Home - 2019.04.29 at 12h 16m 16s.xml">
-      <configuration name="StylistTest.getName_stylistInstantiatesWithName_Home" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest_Client_instantiatesWithDescription_String - 2019.04.29 at 16h 03m 10s.xml">
+      <configuration name="ClientTest.Client_instantiatesWithDescription_String" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 25m 11s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest_getCreatedAt_instantiatesWithCurrentTime_today - 2019.04.29 at 16h 03m 18s.xml">
+      <configuration name="ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 29m 34s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest_all_returnsAllInstancesOfClient_true - 2019.04.29 at 16h 03m 30s.xml">
+      <configuration name="ClientTest.all_returnsAllInstancesOfClient_true" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 42m 58s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 49m 38s.xml">
-      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    <history-entry file="ClientTest_save_assignsIdToObject - 2019.04.29 at 16h 09m 45s.xml">
+      <configuration name="ClientTest.save_assignsIdToObject" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="83" y="27" width="588" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24261771" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24169742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,14 +482,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65682656" visible="true" weight="0.32676518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39576548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32084692" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32736155" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32019705" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.34317344" side_tool="true" weight="0.32676518" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.57195574" weight="0.32676518" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -495,7 +502,7 @@
       <window_info anchor="right" id="Maven" order="8" weight="0.32740214" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24169742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,14 +511,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32676518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39576548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32247558" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32084692" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32736155" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -571,16 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client.vtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -611,16 +608,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -694,10 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        <state relative-caret-position="325">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -706,20 +693,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="82" column="52" lean-forward="true" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        <state relative-caret-position="405">
+          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
           </folding>
         </state>
       </provider>

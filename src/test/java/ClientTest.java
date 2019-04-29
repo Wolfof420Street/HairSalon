@@ -41,7 +41,7 @@ public class ClientTest {
     }
     */
     @Test
-    public void getId_clentsInstantiateWithAnID_1() {
+    public void getId_clientsInstantiateWithAnID_1() {
         Client myClient = new Client("Tom Orenge", 1);
         myClient.save();
         assertEquals(1, myClient.getId()>0 );
