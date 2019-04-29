@@ -2,13 +2,20 @@
 <div class="row">
 <div class="col-md-6">
 <h1>List of Stylists</h1>
+<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+<div>
 <ul>
+
   #foreach ($stylist in $stylists)
-    <li><a href="/stylists/$stylist.getId()">$stylist.getName()</a></li>
+    <li class="pink-text"><i class="fas fa-chart-pie"></i><a href="/stylists/$stylist.getId()">$stylist.getName()</a></li>
   #end
 </ul>
 
         <form action="/stylists/delete" method="post">
             <button type="submit" class="btn btn-danger btn-md" id="delete-client">Delete Stylist</button>
         </form>
-<a href="/stylists/new">Add New Stylist</a>
+<a class="btn btn-pink"><i class="far fa-clone left"></i> href="/stylists/new">Add New Stylist</a>
+</div>
+</div>
+</div>
