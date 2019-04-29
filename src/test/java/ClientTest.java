@@ -68,7 +68,7 @@ public class ClientTest {
         assertEquals(myClient.getId(), savedClient.getId());
     }
     @Test
-    public void find_returnsTaskWithSameId_secondTask() {
+    public void find_returnsClientWithSameId_secondTask() {
         Client firstClient = new Client("Wolf", 1);
         firstClient.save();
         Client secondClient = new Client ("Gerrit", 1);
