@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fde51d4-3cce-4ddf-96e1-d3d81ecd0a7c" name="Default Changelist" comment="" />
+    <list default="true" id="1fde51d4-3cce-4ddf-96e1-d3d81ecd0a7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseRule.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -44,39 +48,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="216">
+              <caret line="76" column="59" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -84,8 +62,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="242">
+              <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -160,25 +174,25 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylists.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist-client-form.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist-client-success.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/DB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Stylist.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/client.vtl" />
-        <option value="$PROJECT_DIR$/src/test/java/DatabaseRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StylistTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/stylist-form.vtl" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/client-form.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/DB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DatabaseRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Stylist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StylistTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
@@ -191,7 +205,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="83" />
     <option name="y" value="27" />
-    <option name="width" value="608" />
+    <option name="width" value="598" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -200,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,7 +281,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,13 +306,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StylistTest.addClients_addsClientsToList_true">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="SalonApp.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.StylistTest.save_savesIntoDatabase_true">
+    <configuration name="StylistTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;StylistTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="StylistTest.addClients_addsClientsToList_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -320,12 +347,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.all_returnsAllInstancesOfCategory_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StylistTest.getName_stylistInstantiatesWithName_Home" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.all_returnsAllInstancesOfCategory_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;StylistTest.getName_stylistInstantiatesWithName_Home&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -340,12 +367,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.find_returnsStylistWithSameId_secondStylist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StylistTest.save_savesIntoDatabase_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.find_returnsStylistWithSameId_secondStylist&quot;" />
+        <option name="scriptParameters" value="--tests &quot;StylistTest.save_savesIntoDatabase_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -360,12 +387,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StylistTest.getId_categoriesInstantiateWithAnId_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StylistTest.save_savesStylistIdIntoDB_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;StylistTest.getId_categoriesInstantiateWithAnId_1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;StylistTest.save_savesStylistIdIntoDB_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -382,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StylistTest.save_savesIntoDatabase_true" />
+        <item itemvalue="Gradle.StylistTest.getName_stylistInstantiatesWithName_Home" />
+        <item itemvalue="Gradle.StylistTest.save_savesStylistIdIntoDB_true" />
+        <item itemvalue="Gradle.StylistTest" />
         <item itemvalue="Gradle.StylistTest.addClients_addsClientsToList_true" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.StylistTest.find_returnsStylistWithSameId_secondStylist" />
-        <item itemvalue="Gradle.StylistTest.getId_categoriesInstantiateWithAnId_1" />
-        <item itemvalue="Gradle.StylistTest.all_returnsAllInstancesOfCategory_true" />
       </list>
     </recent_temporary>
   </component>
@@ -404,41 +431,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest_Client_instantiatesWithDescription_String - 2019.04.22 at 12h 27m 08s.xml">
-      <configuration name="ClientTest.Client_instantiatesWithDescription_String" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ClientTest_getCreatedAt_instantiatesWithCurrentTime_today - 2019.04.23 at 20h 36m 43s.xml">
-      <configuration name="ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ClientTest_getCreatedAt_instantiatesWithCurrentTime_today - 2019.04.23 at 20h 39m 05s.xml">
-      <configuration name="ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ClientTest_getCreatedAt_instantiatesWithCurrentTime_today - 2019.04.23 at 20h 40m 11s.xml">
-      <configuration name="ClientTest.getCreatedAt_instantiatesWithCurrentTime_today" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_all_returnsAllInstancesOfCategory_true - 2019.04.24 at 10h 52m 59s.xml">
-      <configuration name="StylistTest.all_returnsAllInstancesOfCategory_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_getId_categoriesInstantiateWithAnId_1 - 2019.04.24 at 11h 04m 17s.xml">
-      <configuration name="StylistTest.getId_categoriesInstantiateWithAnId_1" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_find_returnsStylistWithSameId_secondStylist - 2019.04.24 at 11h 14m 03s.xml">
-      <configuration name="StylistTest.find_returnsStylistWithSameId_secondStylist" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_addClients_addsClientsToList_true - 2019.04.24 at 19h 37m 10s.xml">
-      <configuration name="StylistTest.addClients_addsClientsToList_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="StylistTest_addClients_addsClientsToList_true - 2019.04.26 at 13h 15m 38s.xml">
-      <configuration name="StylistTest.addClients_addsClientsToList_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="StylistTest_addClients_addsClientsToList_true - 2019.04.26 at 13h 18m 02s.xml">
       <configuration name="StylistTest.addClients_addsClientsToList_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 11h 56m 15s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 03m 11s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest - 2019.04.29 at 12h 05m 33s.xml">
+      <configuration name="StylistTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 08m 28s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 13m 28s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesStylistIdIntoDB_true - 2019.04.29 at 12h 15m 14s.xml">
+      <configuration name="StylistTest.save_savesStylistIdIntoDB_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_getName_stylistInstantiatesWithName_Home - 2019.04.29 at 12h 16m 16s.xml">
+      <configuration name="StylistTest.getName_stylistInstantiatesWithName_Home" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 25m 11s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest_save_savesIntoDatabase_true - 2019.04.29 at 12h 29m 34s.xml">
+      <configuration name="StylistTest.save_savesIntoDatabase_true" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23463687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24261771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,7 +474,36 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39576548" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32084692" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32736155" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32840723" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.3298969" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32740214" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386273" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39576548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,35 +521,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32740214" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3881119" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39576548" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33004925" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32840723" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.3298969" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
@@ -519,23 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,28 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client.vtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -623,23 +611,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="403">
+            <caret line="51" column="103" lean-forward="true" selection-start-line="51" selection-start-column="103" selection-end-line="51" selection-end-column="103" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -652,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -664,20 +652,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client-form.vtl">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -688,10 +676,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client-form.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="76" column="59" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
