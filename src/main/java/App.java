@@ -105,16 +105,17 @@ public class App {
        post("/stylists/:id/clients", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
 
-            Stylist stylist = Stylist.find(Integer.parseInt(request.queryParams("stylistId")));
+            /* Stylist stylist = Stylist.find(Integer.parseInt(request.queryParams("stylistId")));*/
 
             String description = request.queryParams("description");
             int stylistId = Integer.parseInt(request.queryParams(":id"));
-            Client newClient = new Client(description, stylist.getId());
+            Client newClient = new Client(description, stylistId);
 
             newClient.save();
-            response.redirect("/stylists/" + stylistId);
+          /*  response.redirect("/stylists/" + stylistId);
             model.put("stylist", stylist);
-            model.put("template", "templates/stylist-client-success.vtl");
+            model.put("template", "templates/stylist-client-success.vtl");*/
+           response.redirect("/stylists/" + stylistId);
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
