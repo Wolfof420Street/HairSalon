@@ -108,12 +108,13 @@ public class App {
             Stylist stylist = Stylist.find(Integer.parseInt(request.queryParams("stylistId")));
 
             String description = request.queryParams("description");
+            int stylistId = Integer.parseInt(request.queryParams(":id"));
             Client newClient = new Client(description, stylist.getId());
 
             newClient.save();
-
+            response.redirect("/stylists/" + stylistId);
             model.put("stylist", stylist);
-            model.put("template", "templates/stylist-clients-success.vtl");
+            model.put("template", "templates/stylist-client-success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
