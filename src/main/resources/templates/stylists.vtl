@@ -1,7 +1,14 @@
+<div class="container">
+<div class="row">
+<div class="col-md-6">
 <h1>List of Stylists</h1>
 <ul>
   #foreach ($stylist in $stylists)
     <li><a href="/stylists/$stylist.getId()">$stylist.getName()</a></li>
   #end
 </ul>
+
+        <form action="/stylists/delete" method="post">
+            <button type="submit" class="btn btn-danger btn-md" id="delete-client">Delete Stylist</button>
+        </form>
 <a href="/stylists/new">Add New Stylist</a>

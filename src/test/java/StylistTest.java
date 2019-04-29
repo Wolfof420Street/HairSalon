@@ -55,7 +55,7 @@ public class StylistTest {
         Stylist testStylist = new Stylist("Gang");
         assertEquals(0, testStylist.getClients().size());
     }
-    /*
+
     @Test
     public void addClients_addsClientsToList_true() {
         Stylist testStylist = new Stylist("Wolf");
