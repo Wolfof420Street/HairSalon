@@ -102,17 +102,19 @@ public class App {
             model.put("template", "templates/stylist-success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-       post("/stylists/:id/clients", (request, response) -> {
+        post("/stylists/:id/clients", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
 
+            Stylist stylist = Stylist.find(Integer.parseInt(request.queryParams("stylistId")));
+
             String description = request.queryParams("description");
-           int stylistId = Integer.parseInt(request.params(":id"));
+            Client newClient = new Client(description, stylist.getId());
 
-        Client newClient = new Client(description, stylistId);
-        newClient.save();
+            newClient.save();
 
-           response.redirect("/stylists/" + stylistId);
-           return new ModelAndView(model, layout);
+            model.put("stylist", stylist);
+            model.put("template", "templates/stylist-clients-success.vtl");
+            return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
        //adding a client to a specific stylist
