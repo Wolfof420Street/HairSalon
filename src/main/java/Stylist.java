@@ -63,6 +63,7 @@ public class Stylist {
                     this.getId() == newStylist.getId();
         }
     }
+
     public void save() {
         try(Connection con = DB.sql2o.open()) {
             String sql = "INSERT INTO stylists (name) VALUES (:name)";
@@ -73,5 +74,12 @@ public class Stylist {
                     .getKey();
         }
     }
-    
+    public void delete(){
+        try(Connection con = DB.sql2o.open()){
+            String sql = "DELETE FROM stylists WHERE id=:id";
+            con.createQuery(sql)
+                    .addParameter("id",id)
+                    .executeUpdate();
+        }
+    }
     }
